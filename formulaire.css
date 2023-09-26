@@ -1,0 +1,78 @@
+input[type=text],
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=password],
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=email],
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #09961283;
+        }
+
+        .form {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding-left: 40px;
+            width: max-content;
+            padding-top: 20px;
+            margin-left: 30vw;
+            padding-right: 40px;
+        }
+
+        table {
+            border-style: none;
+            width: 100%;
+        }
+
+        th,
+        td {
+            padding: 8px;
+            border-collapse: collapse;
+            text-align: left;
+            border-bottom: 1px solid #FCFEFE;
+        }
+
+        h2 {
+            margin-left: 25%;
+        }
+
+        tr:hover {
+            background-color: #2BF7790A
+        }

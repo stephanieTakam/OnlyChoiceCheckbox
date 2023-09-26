@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="formulaire.js"></script>
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+
+<body>
+
+    <div class="form">
+        <h2>INSCRIPTION</h2>
+
+        <form action="formulaire.php" name="formulaire" method="post">
+            <label for="fname">Nom</label><br>
+            <input type="text" id="fname" name="nom" required><br>
+
+            <label for="lname">Prenom</label><br>
+            <input type="text" id="lname" name="prenom" required><br>
+
+            <label for="lname">Mot de passe</label><br>
+            <input type="password" id="lname" name="mdp" required><br>
+
+            <label for="lname">E-Mail</label><br>
+            <input type="email" id="lname" name="email" required><br>
+
+            <div class="appreciation">
+                <h2>
+                    Appréciation
+                </h2>
+                <table>
+                    <th>
+                    </th>
+                    <th>
+                        Excellent
+                    </th>
+                    <th>
+                        Bien
+                    </th>
+                    <th>
+                        Passable
+                    </th>
+                    <th>
+                        Pas Bien
+                    </th>
+                    <tr>
+                        <td>
+                            Chambre
+                        </td>
+                        <td>
+                            <input class="cb" type="checkbox" name="choix1" id="choix1" onclick="changeCheckBox1();"
+                                value="Excellent">
+                        </td>
+                        <td>
+                            <input class="cb" type="checkbox" name="choix1" id="choix1" onclick="changeCheckBox1();"
+                                value="Bien">
+                        </td>
+                        <td>
+                            <input class="cb" type="checkbox" name="choix1" id="choix1" onclick="changeCheckBox1();"
+                                value="Passable">
+                        </td>
+                        <td>
+                            <input class="cb" type="checkbox" name="choix1" id="choix1" onclick="changeCheckBox1();"
+                                value="Pas Bien">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Salon
+                        </td>
+
+
+                        <td>
+                            <input type="checkbox" name="choix2" id="choix2" onclick="changeCheckBox2();"
+                                value="Excellent">
+                        </td>
+                        <td>
+                            <input type="checkbox" name="choix2" id="choix2" onclick="changeCheckBox2();" value="Bien">
+                        </td>
+                        <td>
+                            <input type="checkbox" name="choix2" id="choix2" onclick="changeCheckBox2();"
+                                value="Passable">
+                        </td>
+                        <td>
+                            <input type="checkbox" name="choix2" id="choix2" onclick="changeCheckBox2();"
+                                value="Pas Bien">
+                        </td>
+
+
+                    </tr>
+                    <tr>
+                        <td>
+                            Cuisine
+                        </td>
+                        <td>
+                            <input type="checkbox" name="choix3" id="choix3" onclick="changeCheckBox3();"
+                                value="Excellent">
+                        </td>
+                        <td>
+                            <input type="checkbox" name="choix3" id="choix3" onclick="changeCheckBox3();" value="Bien">
+                        </td>
+                        <td>
+                            <input type="checkbox" name="choix3" id="choix3" onclick="changeCheckBox3();"
+                                value="Passable">
+                        </td>
+                        <td>
+                            <input type="checkbox" name="choix3" id="choix3" onclick="changeCheckBox3();"
+                                value="Pas Bien">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Douche
+                        </td>
+                        <td>
+                            <input type="checkbox" name="choix4" id="choix4" onclick="changeCheckBox4();"
+                                value="Excellent">
+                        </td>
+                        <td>
+                            <input type="checkbox" name="choix4" id="choix4" onclick="changeCheckBox4();" value="Bien">
+                        </td>
+                        <td>
+                            <input type="checkbox" name="choix4" id="choix4" onclick="changeCheckBox4();"
+                                value="Passable">
+                        </td>
+                        <td>
+                            <input type="checkbox" name="choix4" id="choix4" onclick="changeCheckBox4();"
+                                value="Pas Bien">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="envoyer">
+                <input type="submit" value="Envoyer">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
